@@ -1,0 +1,40 @@
+install git
+	https://git-scm.com/download/win
+
+open git bash
+
+git config --list
+
+git config --global user.name "laxminarayanagellu@gmail.com"
+
+git config --global user.name "lucky2000"
+
+git config --global core.editor "C:/Program Files/Notepad++/notepad++.exe"
+
+-h for help of a command
+ex: 
+	git add -h 
+	git status -h
+
+navigate to the required folder
+or
+mkdir git_lucky
+cd git_lucky
+
+git init   : creates git local repository in the git_lucky folder
+
+touch filename : creates a file
+
+edit the file and save it.
+
+git add . : adds all the files to the staging area of git.
+
+git status : shows the untracked files and modified files and staged files
+
+untracked files are files which are created but not part of the git repository.
+
+git commit -m "first commit" : creates snapshot of the files. all the files which are in staging area are saved now.
+
+git status
+
+git log --pretty=oneline

@@ -38,3 +38,10 @@ git commit -m "first commit" : creates snapshot of the files. all the files whic
 git status
 
 git log --pretty=oneline
+
+to change the message of the previous commit
+
+git commit --amend -m "wow lucky"
+
+git restore "git connection.txt" : restores to the previous commit
+

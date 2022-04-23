@@ -43,5 +43,10 @@ to change the message of the previous commit
 
 git commit --amend -m "wow lucky"
 
+to add files to the previous commit instead of creating a new commit:
+
+git add .
+git commit --amend --no-edit
+
 git restore "git connection.txt" : restores to the previous commit
 
